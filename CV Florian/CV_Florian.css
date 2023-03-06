@@ -1,0 +1,85 @@
+
+[class*="col-"] {
+  width: 100%;
+}
+  body{ 
+    background-color:whitesmoke;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.5;
+    color:black
+    }
+    
+  .margin {
+       margin-top: 5px;
+       margin-bottom: 5px;
+    }
+
+    .idcontainer{
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .idimg img {
+        box-shadow: 2px 2px 4px #000000;
+        border:outset;
+        width:200px !important;
+        height:250px !important;
+    }
+
+    .ExperienceContainer {
+      display:flex;
+      flex-direction: column;
+    }
+    .Experience {
+      display: grid;
+      grid-template-columns:100px auto ;
+      grid-template-rows:40px auto ;
+      align-items: center;
+
+    }
+    .post {
+      text-align: left;
+      font-size: 20px;
+    }
+    .data {
+      grid-row:span 2 ;
+    }
+
+    .cv {
+      padding: 20px;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 0.5cm;
+      text-align: center;
+      color:brown;
+      
+    }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+}
+.tit {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+    
+
+  
+      
+    
+
+  
